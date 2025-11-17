@@ -71,6 +71,7 @@ a {
 /* dùng hover khi di qua cho mờ đi chút */
 .btn:hover {
   opacity: 0.9;
+  cursor: pointer;
 }
 /* căn khoảng cách 2 bên trên trình duyệt */
 .main-content {
@@ -180,8 +181,8 @@ a {
   cursor: pointer;
 }
 .popular {
-  padding: 65px 0;
-  margin-top: 135px;
+  padding: 40px 0;
+  margin-top: 40px;
 }
 
 .popular-top .desc {
@@ -190,4 +191,26 @@ a {
   color: #5f5b53;
   font-size: 1.8rem;
   line-height: 1.67;
+}
+
+.popular .course-list {
+  margin-top: 55px;
+  gap: 30px;
+  display: flex;
+}
+/* chỉnh cho ảnh vào khung của khối, không bị tràn ra ngoài khối */
+.popular .course-item .thumb {
+  border-radius: 12px 12px 0 0;
+  width: 100%;
+}
+
+.popular .course-item .title {
+  color: #171100;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.67;
+}
+
+.popular .course-item .desc {
+  margin-top: 6px;
 }
